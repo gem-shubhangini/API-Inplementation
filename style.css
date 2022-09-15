@@ -1,0 +1,49 @@
+.btngroup{
+    display: flex;
+
+    margin: 20px;
+    justify-content: space-around;
+}
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .desc{
+     display:  flex !important;
+     width: 100%;
+     height: 50px;
+     padding: 10px;
+     justify-content: space-between;
+  }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  
